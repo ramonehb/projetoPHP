@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(imagens/windows.jpg);
+	background-size: cover;
+
+}
+
+.login {
+	width: 450px;
+	height: 350px;
+	top: 50%;
+	left: 50%;
+	border: 2px outset #000;
+	color: white;
+	background-color: rgb(0,0,0,0.8);
+	position: absolute;
+	transform: translate(-50%, -50%);
+
+}
+
+h1 {
+
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.login p {
+	margin:0;
+	padding: 0;
+	font-size: 20px;
+	margin-left: 25%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.login input {
+	width: 50%;
+	margin-bottom: 21px;
+	margin-left: 25%
+}
+
+.login input[type="submit"]{
+	color:black;
+	height: 35px;
+	margin-left: 25%;
+	margin-bottom: 30px;
+	background-color: white;
+	transition: 0.2s;
+	
+}
+
+a:link {
+	color:white;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#999999;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+a:active {
+	color:white;
+	text-decoration: none;
+}
+
